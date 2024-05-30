@@ -1,3 +1,10 @@
+import PageHeader from './components/PageHeader';
+
 export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <div className="flex max-h-screen flex-col">
+      <PageHeader />
+      <div>2</div>
+    </div>
+  );
 }
